@@ -1,6 +1,6 @@
 bin/
-misc/build.bat
-misc/create.bat
-misc/play.bat
-misc/shell.bat
+build/build.bat
+build/create.bat
+build/play.bat
+build/shell.bat
 *.vscode
