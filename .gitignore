@@ -3,3 +3,4 @@ misc/build.bat
 misc/create.bat
 misc/play.bat
 misc/shell.bat
+*.vscode
