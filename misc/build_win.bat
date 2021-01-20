@@ -1,7 +1,7 @@
 @echo off
 cls
 SET root= < Enter root here >
-SET appname=latest
+SET appname=sodapong
 SET source=%root%\src\*.c
 SET include=-IC:\MinGW\include\SDL2 -LC:\MinGW\lib -lmingw32 -lSDL2main -lSDL2 -lSDL2_image
 
