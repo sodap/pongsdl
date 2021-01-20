@@ -21,7 +21,7 @@ SDL_Renderer* game_renderer;
 GameWindow game_window;
 Texture  my_texture;
 
-struct _Entity
+typedef struct Entity
 {
 	int x;
 	int y;
@@ -32,8 +32,8 @@ struct _Entity
 	int speed;
 	Texture* texture;
 	int rebound;
-};
-typedef struct _Entity Entity;
+} Entity;
+
 
 void print_error(char error[])
 {

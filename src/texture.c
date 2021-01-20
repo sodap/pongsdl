@@ -3,14 +3,13 @@
 #include <stdio.h>
 
 extern SDL_Renderer *game_renderer;
-struct _Texture
+typedef struct Texture
 {
 	SDL_Texture* texture;
 	
 	int width;
 	int height;
-};
-typedef struct _Texture Texture;
+} Texture;
 
 
 void texture_create( Texture* texture )

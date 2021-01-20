@@ -1,14 +1,13 @@
 #include <SDL.h>
 #include <stdio.h>
 
-struct _Texture
+typedef struct Texture
 {
 	SDL_Texture* texture;
 	
 	int width;
 	int height;
-};
-typedef struct _Texture Texture;
+} Texture;
 
 
 void texture_create( Texture* texture );

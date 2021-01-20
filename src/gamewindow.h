@@ -1,4 +1,4 @@
-struct _GameWindow 
+typedef struct GameWindow 
 {
 	SDL_Window* window;
 	
@@ -10,8 +10,7 @@ struct _GameWindow
 	int minimized;
 	int mouseFocus;
 	int keyboardFocus;
-};
-typedef struct _GameWindow GameWindow;
+} GameWindow;
 
 
 /*  Creates a game window \return success */

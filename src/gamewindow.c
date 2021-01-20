@@ -4,7 +4,7 @@
 extern int SCREEN_WIDTH;
 extern int SCREEN_HEIGHT;
 extern SDL_Renderer *game_renderer;
-struct _GameWindow 
+typedef struct GameWindow 
 {
 	SDL_Window* window;
 	
@@ -16,9 +16,7 @@ struct _GameWindow
 	int minimized;
 	int mouseFocus;
 	int keyboardFocus;
-};
-
-typedef struct _GameWindow GameWindow;
+} GameWindow;
 
 int game_window_create(GameWindow* game_window, char* title, int w, int h)
 {
